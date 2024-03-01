@@ -16,8 +16,7 @@ redirect_url = auth.get_authorization_url()
 redirect_url
 
 #%%
-PIN = '4921125'
-user_pin_input = PIN # input("PIN: ")
+user_pin_input = input("PIN: ")
 access_tok = auth.get_access_token(user_pin_input)
 print(access_tok)
 
