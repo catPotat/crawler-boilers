@@ -1,0 +1,4 @@
+This is a sample text file for trying file handling operations.
+Hello
+My name is Y
+What is your name?
